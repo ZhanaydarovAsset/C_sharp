@@ -11,6 +11,8 @@
 
 23432 -> да
 
+[решение](seminar\seminar_03\homework\home_ex_1_polindrom\Program.cs)
+
 ## Задача 21
 
 Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
@@ -18,6 +20,8 @@
 A (3,6,8); B (2,1,-7), -> 15.84
 
 A (7,-5, 0); B (1,-1,9) -> 11.53
+
+[решение](seminar\seminar_03\homework\home_ex_2_rastoyanie\Program.cs)
 
 ## Задача 23
 
@@ -27,9 +31,14 @@ A (7,-5, 0); B (1,-1,9) -> 11.53
 
 5 -> 1, 8, 27, 64, 125
 
+[решение](seminar\seminar_03\homework\home_ex_3_cub\Program.cs)
+
 ## Задача
 
 Реализовать перемешивание массива
+
+[решение](seminar\seminar_03\homework\home_ex_peremeshat\Program.cs)
+
 
 ## Задачи 2
 
