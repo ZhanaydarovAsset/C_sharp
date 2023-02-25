@@ -3,11 +3,11 @@
 
 int x, y, z;
 Console.WriteLine("Ввведите первое число: ");
-x = int.Parse(Console.ReadLine());
+x = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Ввведите второе число: ");
-y = int.Parse(Console.ReadLine());
+y = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Ввведите третье число: ");
-z = int.Parse(Console.ReadLine());
+z = int.Parse(Console.ReadLine()!);
 
 if (x > y)
 {

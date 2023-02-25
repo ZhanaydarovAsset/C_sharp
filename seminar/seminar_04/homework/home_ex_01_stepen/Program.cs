@@ -9,7 +9,7 @@ int[] Promt(string message)
     int[] numbAandB = new int[2];
     for (int i = 0; i < 2; i++)
     {
-        string valve = Console.ReadLine();
+        string valve = Console.ReadLine()!;
         int result = Convert.ToInt32(valve);
         numbAandB[i] = result;
     }

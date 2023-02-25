@@ -1,4 +1,4 @@
-﻿int day = int.Parse(Console.ReadLine());
+﻿int day = int.Parse(Console.ReadLine()!);
 if (day == 1)
 {
     Console.Write("Понедельник");

@@ -9,7 +9,7 @@ int[] Promt(string message)
     int[] koordinate = new int[3];
     for (int i = 0; i < 3; i++)
     {
-        string valve = Console.ReadLine();
+        string valve = Console.ReadLine()!;
         int result = Convert.ToInt32(valve);
         koordinate[i] = result;
     }

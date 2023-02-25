@@ -4,7 +4,7 @@
 int n, i;
 
 i = 2;
-n = int.Parse(Console.ReadLine());
+n = int.Parse(Console.ReadLine()!);
 while (i < n)
 {
     Console.Write(i.ToString() + ", ");

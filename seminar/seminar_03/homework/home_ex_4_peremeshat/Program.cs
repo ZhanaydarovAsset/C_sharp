@@ -3,7 +3,7 @@
 int Promt(string message)
 {
     Console.WriteLine(message);
-    string valve = Console.ReadLine();
+    string valve = Console.ReadLine()!;
     int result = Convert.ToInt32(valve);
     return result;
 }
@@ -30,6 +30,9 @@ void PrintMassif(int[] col)
     }
 }
 
+int size = Promt("Введите размер массива: ");
+
+
 void MixArray(int[] arr)
 {
     for (int j = 0; j < 5; j++)
@@ -43,7 +46,6 @@ void MixArray(int[] arr)
     }
 }
 
-int size = Promt("Введите размер массива: ");
 int[] array = new int[size];
 
 FillMassif(array);

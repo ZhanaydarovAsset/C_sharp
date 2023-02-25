@@ -4,7 +4,7 @@
 int Promt(string message)
 {
     Console.WriteLine(message);
-    string valve = Console.ReadLine();
+    string valve = Console.ReadLine()!;
     int result = Convert.ToInt32(valve);
     return result;
 }
