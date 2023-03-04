@@ -9,6 +9,14 @@ public class Shared
         int result = Convert.ToInt32(Console.ReadLine()!);
         return result;
     }
+
+    public static double InputDoubleUser(string text)
+    {
+        Console.WriteLine(text);
+        double result = Convert.ToDouble(Console.ReadLine()!);
+        return result;
+    }
+
     //создал массив
     public static int[] CreatIntArray(int size)
     {

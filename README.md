@@ -1,3 +1,22 @@
+
+# Семинар 6 ДЗ
+
+## Задача 41: 
+Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
+
+0, 7, 8, -2, -2 -> 2
+
+1, -7, 567, 89, 223-> 3
+
+[решение](seminar\seminar_6\Homework\home_ex_41\Program.cs)
+
+## Задача 43: 
+Напишите программу, которая найдёт точку пересечения двух прямых, заданных уравнениями y = k1 * x + b1, y = k2 * x + b2; значения b1, k1, b2 и k2 задаются пользователем.
+
+b1 = 2, k1 = 5, b2 = 4, k2 = 9 -> (-0,5; -0,5)
+
+[решение](seminar\seminar_6\Homework\home_ex_43\Program.cs)
+
 # Семинар 5 ДЗ
 
 ## Задача 34:
@@ -6,7 +25,7 @@
 
 [345, 897, 568, 234] -> 2
 
-[решение](C:\Repo\C_sharp\seminar\seminar_05\homework\Example_34\EvenNumbersInArray.cs)
+[решение](seminar\seminar_05\homework\Example_34\EvenNumbersInArray.cs)
 
 ## Задача 36:
  Задайте одномерный массив, заполненный случайными числами. Найдите сумму элементов, стоящих на нечётных позициях.
@@ -15,14 +34,14 @@
 
 [-4, -6, 89, 6] -> 0
 
-[решение](C:\Repo\C_sharp\seminar\seminar_05\homework\Example_36\Program.cs)
+[решение](seminar\seminar_05\homework\Example_36\Program.cs)
 
 ## Задача 38: 
  Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
 
 [3 7 22 2 78] -> 76
 
-[решение](C:\Repo\C_sharp\seminar\seminar_05\homework\Example_38\Program.cs)
+[решение](seminar\seminar_05\homework\Example_38\Program.cs)
 
 # Семинар 4 ДЗ
 
