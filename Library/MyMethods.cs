@@ -58,4 +58,51 @@ public class Shared
     }
 
 
+
+    public static void Print2Array(double[,] matr)
+    {
+        for (int i = 0; i < matr.GetLength(0); i++)
+        {
+            for (int j = 0; j < matr.GetLength(1); j++)
+            {
+                Console.Write(matr[i, j] + " ");
+            }
+            Console.WriteLine();
+        }
+    }
+
+    public static void Fill2Array(double[,] matr, int factor, int fraction)
+    {
+        for (int i = 0; i < matr.GetLength(0); i++)
+        {
+            for (int j = 0; j < matr.GetLength(1); j++)
+            {
+                matr[i, j] = Math.Round( new Random().NextDouble() * factor, fraction);
+            }
+        }
+    }
+
+    public static void Print2IntArray(int[,] matr)
+    {
+        for (int i = 0; i < matr.GetLength(0); i++)
+        {
+            for (int j = 0; j < matr.GetLength(1); j++)
+            {
+                Console.Write(matr[i, j] + " ");
+            }
+            Console.WriteLine();
+        }
+    }
+
+    public static void Fill2IntArray(int[,] matr)
+    {
+        for (int i = 0; i < matr.GetLength(0); i++)
+        {
+            for (int j = 0; j < matr.GetLength(1); j++)
+            {
+                matr[i, j] = new Random().Next(1, 10);
+            }
+        }
+    }
+
 }
