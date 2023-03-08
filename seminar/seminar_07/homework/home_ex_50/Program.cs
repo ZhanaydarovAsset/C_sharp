@@ -8,11 +8,12 @@ Fill2IntArray(matrix);
 Print2IntArray(matrix);
 int line = InputIntUser("index line: ");
 int colum = InputIntUser("index column: ");
-if (line > matrix.GetLength(0) | colum > matrix.GetLength(1))
-{
-    Console.WriteLine("такого элемента нет");
-}
-else
+if (line+1 <= matrix.GetLength(0) || colum+1 <= matrix.GetLength(1))
 {
     Console.WriteLine("значение элемента:  "+matrix[line, colum]);
 }
+else
+{
+    Console.WriteLine("такого элемента нет");
+}
+
