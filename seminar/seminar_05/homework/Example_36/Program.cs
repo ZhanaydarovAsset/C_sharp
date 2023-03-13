@@ -5,7 +5,7 @@ using static Library.Shared;
 
 //cоздать массив\ запросить размер массива
 int size = InputIntUser("vveditr razmer massiva: ");
-int[] arr = CreatArray(size);
+int[] arr = CreatIntArray(size);
 // заполнить рандомно
 FillArray(arr, 1, 100);
 Console.WriteLine(ArrayJoinToString(arr));

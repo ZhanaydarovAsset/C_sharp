@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/seminar/seminar_08/home_ex_60/home_ex_60.csproj",
+                "${workspaceFolder}/seminar/seminar_09/homework_66/homework_66.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/seminar/seminar_08/home_ex_60/home_ex_60.csproj",
+                "${workspaceFolder}/seminar/seminar_09/homework_66/homework_66.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/seminar/seminar_08/home_ex_60/home_ex_60.csproj"
+                "${workspaceFolder}/seminar/seminar_09/homework_66/homework_66.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

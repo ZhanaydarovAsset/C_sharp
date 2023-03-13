@@ -9,9 +9,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/seminar/seminar_08/home_ex_60/bin/Debug/net6.0/home_ex_60.dll",
+            "program": "${workspaceFolder}/seminar/seminar_09/homework_66/bin/Debug/net6.0/homework_66.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/seminar/seminar_08/home_ex_60",
+            "cwd": "${workspaceFolder}/seminar/seminar_09/homework_66",
             "console": "internalConsole",
             "stopAtEntry": false
         },

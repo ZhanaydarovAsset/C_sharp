@@ -7,7 +7,7 @@
         i++;
     }
 }
-//Method("sms", 5);
+Method("sms", 5);
 
 int Method2()
 {

@@ -2,7 +2,7 @@
 //Напишите программу, которая будет находить строку с наименьшей суммой элементов.
 
 using static Library.Shared;
-Console.Clear();
+
 int[] SummaLine(int[,] matr)
 {
     int[] summLine = new int[matr.GetLength(0)];
@@ -25,5 +25,5 @@ int[] summ = SummaLine(matrix);
 Console.WriteLine(ArrayJoinToString(summ));
 int minOfSumm = summ.Min();
 int indexMin = Array.IndexOf(summ, minOfSumm);
-Console.WriteLine("строкa с наименьшей суммой элементов: "+ indexMin+1);
+Console.WriteLine("строкa с наименьшей суммой элементов: "+ (indexMin+1));
 
